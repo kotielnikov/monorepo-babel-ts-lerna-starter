@@ -22,7 +22,7 @@ export const LoginForm: React.SFC<LoginFormProps> = ({ onClick }) => (
     <Input id="password" label="Password" />
 
     <ButtonsWrapper>
-      <button onClick={onClick}>Log in</button>
+      <button onClick={onClick}>Log in (test)</button>
     </ButtonsWrapper>
   </Wrapper>
 );
